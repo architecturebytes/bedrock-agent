@@ -11,9 +11,13 @@ This is the Open API Schema configured in Action Group.
 **BytesCommerce/InvokeAgentBytesCommerce**<br>
 This is a lambda function to invoke the BytesCommerce Agent programmatically.<br>
 If you don't plan to invoke the Agent programmatically, you can ignore it.<br>
-You must use latest version of boto3 for this to work.<br>
+You must use a version of boto3 that supports bedrock-agent-runtime (eg. version 1.34.49). <br>
 
-To use latest version of boto3 with your lambda function follow these steps:<br>
+Check boto3 version in a lambda function:<br>
+`print(boto3.__version__)`<br>
+`print(botocore.__version__)`
+
+To use latest version of boto3 with your lambda function you can follow these steps:<br>
 1. Open Cloud Shell in AWS Console OR any shell/command-line environment with AWS configured.<br>
 2. Create a new directory:<br>
   `LIB_DIR=boto3-mylayer/python`<br>
