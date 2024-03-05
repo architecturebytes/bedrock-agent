@@ -5,13 +5,13 @@ Refer YouTube Video: https://www.youtube.com/watch?v=6O9DqCrInvw
 **How to gain access to Foundation Model**<br>
 In AWS Console > Bedrock > Foundation Models > Base Model > Model Access > Manage Model Access > Select the Models you need access to and hit Save.
 
-**BytesCommerce/BytesCommerceFunction**<br>
+**BytesCommerce/BytesCommerceFunction.py**<br>
 This lambda function is configured in Action Group.
 
 **BytesCommerce/BytesCommerceSchema.json**<br>
 This is the Open API Schema configured in Action Group.
 
-**BytesCommerce/InvokeAgentBytesCommerce**<br>
+**BytesCommerce/InvokeAgentBytesCommerce.py**<br>
 This is a lambda function to invoke the BytesCommerce Agent programmatically.<br>
 If you don't plan to invoke the Agent programmatically, you can ignore it.<br>
 You must use a version of boto3 that supports bedrock-agent-runtime (eg. version 1.34.49). <br>
