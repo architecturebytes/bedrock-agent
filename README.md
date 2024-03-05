@@ -17,7 +17,7 @@ Check boto3 version in a lambda function:<br>
 `print(boto3.__version__)`<br>
 `print(botocore.__version__)`
 
-To use latest version of boto3 with your lambda function you can follow these steps:<br>
+To use latest version of boto3 with your lambda function (assuming it is not available via AWS Console by default) you can follow these steps to include it via a Layer:<br>
 1. Open Cloud Shell in AWS Console OR any shell/command-line environment with AWS configured.<br>
 2. Create a new directory:<br>
   `LIB_DIR=boto3-mylayer/python`<br>
