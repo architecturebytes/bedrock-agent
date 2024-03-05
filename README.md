@@ -2,6 +2,9 @@
 
 Refer YouTube Video: https://www.youtube.com/watch?v=6O9DqCrInvw 
 
+**How to gain access to Foundation Model**<br>
+In AWS Console > Bedrock > Foundation Models > Base Model > Model Access > Manage Model Access > Select the Models you need access to and hit Save.
+
 **BytesCommerce/BytesCommerceFunction**<br>
 This lambda function is configured in Action Group.
 
