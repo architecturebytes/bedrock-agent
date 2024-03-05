@@ -2,9 +2,6 @@
 
 Refer YouTube Video: https://www.youtube.com/watch?v=6O9DqCrInvw 
 
-**How to gain access to Foundation Model**<br>
-In AWS Console > Bedrock > Foundation Models > Base Model > Model Access > Manage Model Access > Select the Models you need access to and hit Save.
-
 **BytesCommerce/BytesCommerceFunction.py**<br>
 This lambda function is configured in Action Group.
 
@@ -42,7 +39,11 @@ Within your lambda function you can print boto3 version to verify:<br>
 `print(boto3.__version__)`<br>
 `print(botocore.__version__)`
 
-**Delete/release all resources related to Bedrock Agent - If you no longer need the Agent**<br>
+**How to gain access to Foundation Model**<br>
+In AWS Console > Bedrock > Foundation Models > Base Model > Model Access > Manage Model Access > Select the Models you need access to and hit Save.
+
+**Cleanup**<br>
+Delete/release all resources related to Bedrock Agent - If you no longer need the Agent<br>
 - Agent (Actions and Knowledge Bases)<br>
 - OpenSearch Serverless Collection - This must be explicitly deleted. Although it is created automatically during Knowledge Base Creation - it doesn't get deleted automatically on Knowledge Base deletion<br>
 - Unsubscribe(Remove Access) to any AWS Bedrock Models (for eg. Anthropic Claude)
