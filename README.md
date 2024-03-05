@@ -38,3 +38,10 @@ To use latest version of boto3 with your lambda function (assuming it is not ava
 Within your lambda function you can print boto3 version to verify:<br>
 `print(boto3.__version__)`<br>
 `print(botocore.__version__)`
+
+**Delete/release all resources related to Bedrock Agent - If you no longer need the Agent**<br>
+- Agent (Actions and Knowledge Bases)<br>
+- OpenSearch Serverless Collection - This must be explicitly deleted. Although it is created automatically during Knowledge Base Creation - it doesn't get deleted automatically on Knowledge Base deletion<br>
+- Unsubscribe(Remove Access) to any AWS Bedrock Models (for eg. Anthropic Claude)
+- Lambda function(s) & S3 bucket(s)
+- Any other related resources you may have created.
