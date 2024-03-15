@@ -8,6 +8,10 @@ This lambda function is configured in Action Group.
 **BytesCommerce/BytesCommerceSchema.json**<br>
 This is the Open API Schema configured in Action Group.
 
+**BytesCommerce/kb-data**<br>
+Here you will find two (knowledge base) files used in the demo:<br>
+ProductCatalog.csv, ProductDescriptions.pdf
+
 **BytesCommerce/InvokeAgentBytesCommerce.py**<br>
 This is a lambda function to invoke the BytesCommerce Agent programmatically.<br>
 If you don't plan to invoke the Agent programmatically, you can ignore it.<br>
