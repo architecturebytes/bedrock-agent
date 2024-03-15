@@ -1,0 +1,21 @@
+Product Id,Product Name,Type,Color,Weight,Size,Company,Price
+P001,ThunderBlast,Smartphone,Black,150g,6.1",Quantum Tech,$599.99
+P002,SilverSurge,Laptop,Silver,1.5kg,15.6",Nova Dynamics,$899.99
+P003,BlueRider,Backpack,Blue,800g,N/A,Trek Master,$49.99
+P004,CloudRunner,Sneakers,White,300g,10,Velocity Gear,$79.99
+P005,GoldenGlimmer,Watch,Gold,50g,N/A,Time Sphere,$199.99
+P006,BlazeFusion,Smartphone,Red,155g,6.2",Hyper Tech,$649.99
+P007,NeptuneWave,Laptop,Blue,1.4kg,14",Future Tech,$799.99
+P008,GreenExplorer,Backpack,Green,700g,N/A,Terra Gear,$39.99
+P009,ShadowSprint,Sneakers,Black,320g,9.5,Swift Soles,$89.99
+P010,TimelessElegance,Watch,Silver,55g,N/A,Time Craft,$249.99
+P011,ThunderStrike,Smartphone,Purple,160g,6.0",Quantum Tech,$549.99
+P012,SkyBlaze,Laptop,Blue,1.6kg,13",Nova Dynamics,$999.99
+P013,GreenExplorer,Backpack,Green,850g,N/A,Terra Gear,$59.99
+P014,FireFlyer,Sneakers,Red,280g,9,Velocity Gear,$69.99
+P015,OrangeHorizon,Watch,Orange,45g,N/A,Time Sphere,$179.99
+P016,BlazeFusion,Smartphone,Black,145g,6.3",Hyper Tech,$699.99
+P017,SilverSurge,Laptop,Silver,1.3kg,12",Future Tech,$899.99
+P018,BlueExplorer,Backpack,Blue,750g,N/A,Trek Master,$29.99
+P019,BlackJet,Sneakers,Black,310g,9.7,Swift Soles,$99.99
+P020,GoldRush,Watch,Gold,60g,N/A,Time Craft,$299.99
